@@ -133,9 +133,20 @@ section{
 .main-container .image{
     z-index: -1;
     width: 50%;
+    border: 3px solid #3B1C32;
+    border-radius: 30%;
+    box-shadow: 2rem  2rem 1rem rgba(191, 129, 204, 0.3);
 }
 .main-container .image img{
     width: 100%;
+    
+    /* object-fit: cover; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-radius: 40%;
+    align-items: center;
+    box-shadow: 2rem  2rem 1rem rgba(204, 127, 214, 0.3);
 }
 .main-container .content{
     color: black;
